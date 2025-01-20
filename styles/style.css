@@ -78,3 +78,36 @@
     border-radius: 12px;
     border: none;
 }
+
+/* banner section styles are here */
+.banner-section {
+    max-width: 1158px;
+    margin: 0 auto;
+    gap: 50px;
+    align-items: center;
+}
+.banner-description {
+    font-size: 3.5rem;
+    font-weight: 700;
+    flex-direction: column;
+    gap: 30px;
+    color: #111111;
+}
+.orange {
+    color: #FEA301;
+}
+.blue {
+    color: #01ACFD;
+}
+.banner-subtitle {
+    font-size: 1.25rem;
+    color: #111111;
+    font-weight: 400;
+}
+.banner-btn {
+    max-width: 197px;
+    padding: 10px;
+    background-color: #111111;
+    color: #FFFFFF;
+    border-radius: 12px;
+}
