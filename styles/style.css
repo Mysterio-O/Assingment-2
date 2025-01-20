@@ -195,6 +195,10 @@
     justify-content: center;
     gap: 7px;
 }
+.kinder, .elementary, .middle {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* curriculum-boxes color gradient style */
 .kinder {
