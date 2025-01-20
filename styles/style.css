@@ -12,6 +12,14 @@
   font-style: normal;
 }
 
+/* raleway font style */
+
+.raleway-simple {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /* shared style */
 .display-flex {
     display: flex;
@@ -19,6 +27,18 @@
 .nav-same {
     font-size: 1.25rem;
     line-height: 1.875rem;
+}
+.text-center {
+    text-align: center;
+}
+.shadow {
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    border-radius: 18.86px;
+    height: 476px;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 /* navbar styele are here */
@@ -87,8 +107,6 @@
     align-items: center;
 }
 .banner-description {
-    font-size: 3.5rem;
-    font-weight: 700;
     flex-direction: column;
     gap: 30px;
     color: #111111;
@@ -98,6 +116,11 @@
 }
 .blue {
     color: #01ACFD;
+}
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.8125rem;
 }
 .banner-subtitle {
     font-size: 1.25rem;
@@ -110,4 +133,76 @@
     background-color: #111111;
     color: #FFFFFF;
     border-radius: 12px;
+}
+
+/* curriculum sections style is here */
+.curriculum {
+    padding: 60px 0;
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+}
+.curriculum-title {
+    text-align: center;
+    font-size: 2.875rem;
+    font-weight: 700;
+    line-height: 3.59375rem;
+    color: #000000;
+}
+.curriculum-boxes {
+    max-width: 1160px;
+    margin: 80px auto;
+    gap: 30px;
+}
+.class-title {
+    font-size: 1.5325rem;
+    line-height: 1.91875rem;
+    font-weight: 700;
+    color: #202020;
+}
+.class-subtitle {
+    font-size: 0.943125rem;
+    font-weight: 500;
+    line-height: 1.76875rem;
+    color: #808080;
+}
+.read-1 {
+    font-size: 0.943125rem;
+    color: #64C8FF;
+    line-height: 1.76875rem;
+}
+.read-2 {
+    font-size: 0.943125rem;
+    color: #F0AA00;
+    line-height: 1.76875rem;
+}
+.read-3 {
+    font-size: 0.943125rem;
+    color: #8700FF;
+    line-height: 1.76875rem;
+}
+.icon-1, .icon-2 {
+    height: 40px;
+    width: 40px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color: #FEA301;
+    color: #FFFFFF;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+.icons {
+    justify-content: center;
+    gap: 7px;
+}
+
+/* curriculum-boxes color gradient style */
+.kinder {
+    background-image: linear-gradient(180deg, rgba(222, 245, 255, 1), rgba(255, 255, 255, 0) 40%);
+}
+.elementary {
+    background-image: linear-gradient(180deg, rgba(255, 244, 220, 1), rgba(255, 255, 255, 0) 40%);
+}
+.middle {
+    background-image: linear-gradient(180deg, rgba(238, 225, 255, 1), rgba(255, 255, 255, 0) 40%);
 }
