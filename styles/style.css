@@ -198,6 +198,7 @@
 .kinder, .elementary, .middle {
     padding-left: 10px;
     padding-right: 10px;
+    background-color: white;
 }
 
 /* curriculum-boxes color gradient style */
@@ -213,8 +214,104 @@
 
 
 
+/* story section is here */
+.stories {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(../assets/bg.png), linear-gradient(to top, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 1))
+}
 
+.main-story {
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    width: 80%;
+}
+.story-title {
+    font-size: 2.875rem;
+    line-height: 3.59375rem;
+    font-weight: 700;
+    color: #000000;
+}
+.story-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1160px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.main-story-description {
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+}
+.main-story-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    line-height: 2.39375rem;
+}
+.main-story-subtitle {
+    font-size: 0.95875rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #666666;
+}
+.story-btn1 {
+    background-color: #3CD8E8;
+    border-radius: 47.93px;
+    height: 47px;
+    color: #FFFFFF;
+    padding: 15px;
+    border: none;
+    position: relative;
+    bottom: 37px;
+    left: -150px;
+}
+.second-story {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.story-box2 {
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.story-description {
+    margin: 19px 38px 28px; 
+    font-size: 0.95875rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #000000;
+}
+.alt-btn {
+    background-color: #95B226;
+    color: #FFFFFF;
+    border-radius: 47.93px;
+    height: 38.35px;
+    padding: 10px;
+    border: none;
+    position: relative;
+    bottom: 27px;
+    left: 40px;
+}
+.purple {
+    background-color: #5D58F0;
+}
+.main-story>img, .story-box2>img {
+    width: 100%;
+    background-size: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
 
+.story-btn {
+    margin: 0 auto;
+    padding: 10px;
+    width: 197px;
+}
 
 
 
@@ -270,4 +367,9 @@ footer {
     line-height: 1.625rem;
     color: #FFFFFF;
     margin-bottom: 32px;
+}
+
+
+.hide {
+    display: none;
 }
