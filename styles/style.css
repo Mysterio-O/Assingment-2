@@ -39,6 +39,49 @@
     gap: 30px;
     align-items: center;
     justify-content: center;
+} 
+
+/* Marquee Sections style is here */
+
+.marquee {
+    width: 1160px;
+    height: 60px;
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1rem;
+}
+.marquee>div {
+    display: block;
+    width: 300%;
+    height: 45px;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 13s 2s infinite;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgba(242, 232, 255, 1);
+    padding: 7px;
+}
+.marquee>div>span {
+    font-weight: 800;
+}
+.colorMar1 {
+    color: #01ACFD;
+}
+.colorMar2 {
+    color: #05D4DF;
+}
+.colorMar3 {
+    color: #5D58EF;
+}
+.marquee>span {
+    float: right;
+    width: 100%;
+}
+@keyframes marquee {
+    0% { right: 0;}
+    100% {right: -120%;}
 }
 
 /* navbar styele are here */

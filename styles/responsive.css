@@ -1,4 +1,8 @@
 @media screen and (max-width: 576px) {
+    .marquee {
+        max-width: 430px;
+    }
+
     .nav-link, .nav-title, .nav-btn {
         display: none;
     }
