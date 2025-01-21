@@ -210,3 +210,64 @@
 .middle {
     background-image: linear-gradient(180deg, rgba(238, 225, 255, 1), rgba(255, 255, 255, 0) 40%);
 }
+
+
+
+
+
+
+
+
+/* footer styles are here */
+footer {
+    background-color: #01ACFD;
+}
+.footer-section {
+    height: 519px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.footer-main-container {
+    max-height: 222px;
+    max-width: 1070px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-description {
+    width: 35%;
+}
+.footer-title {
+    font-size: 2.63375rem;
+    line-height: 2.46875rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.footer-subtitle {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.footer-icon-sec {
+    word-spacing: 11px;
+    margin-bottom: 35.35px;
+}
+.about-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.footer-clicks {
+    font-size: 1.25rem;
+    font-weight: 500;
+    list-style: none;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+.footer-social-title {
+    font-size: 1.625rem;
+    line-height: 1.625rem;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
