@@ -1,0 +1,112 @@
+@media screen and (max-width: 576px) {
+    .nav-link, .nav-title, .nav-btn {
+        display: none;
+    }
+    .navbar {
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    .nav {
+        border-bottom: 1px solid #FEA301;
+    }
+    .fa-solid {
+        height: 30px;
+        width: 30px;
+    }
+    .banner-section {
+        flex-direction: column-reverse;
+        margin-left: 26px;
+        margin-right: 26px;
+        margin-top: 26px;
+    }
+    .banner-title, .banner-subtitle, .banner-btn {
+        text-align: center;
+    }
+    .banner-title {
+        font-size: 2rem;
+        line-height: normal;
+    }
+    .banner-subtitle {
+        font-size: 0.875rem;
+    }
+    .banner-description {
+        align-items: center;
+        gap: 20px;
+    }
+    .hero-image {
+        width: 100%;
+    }
+    .curriculum {
+        /* margin-bottom: 0; */
+    }
+    .class-title {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    .class-subtitle {
+        font-size: 0.63875rem;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .read-link {
+        font-size: 0.63875rem;
+    }
+    .curriculum-boxes {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .shadow {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .icon-ultra {
+        display: none;
+    }
+    .curriculum-title {
+        font-size: 1.625rem;
+    }
+    .main-story {
+        display: none;
+    }
+    .stories {
+        padding-top: 0;
+    }
+    .story-title {
+        font-size: 1.625rem;
+    }
+    .second-story {
+        gap: 11px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .story-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-section {
+        height: 768px;
+        align-items: start;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-main-container {
+        flex-direction: column;
+        gap: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .footer-description {
+        width: 100%;
+    }
+    .about-title {
+        margin-bottom: 27px;
+    }
+    .footer-click, .no-list {
+        margin-bottom: 17px;
+    }
+    .footer-social-title {
+        margin-bottom: 37px;
+    }
+}
+    
