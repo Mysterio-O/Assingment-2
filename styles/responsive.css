@@ -1,7 +1,16 @@
+
+        /* Mobile device styles are here */
+
 @media screen and (max-width: 576px) {
+
+         /* marquee style */
+
     .marquee {
         max-width: 430px;
     }
+
+
+         /* nav control style */
 
     .nav-link, .nav-title, .nav-btn {
         display: none;
@@ -18,6 +27,10 @@
         height: 30px;
         width: 30px;
     }
+
+
+         /* banner styles are here */
+
     .banner-section {
         flex-direction: column-reverse;
         margin-left: 26px;
@@ -41,9 +54,9 @@
     .hero-image {
         width: 100%;
     }
-    .curriculum {
-        /* margin-bottom: 0; */
-    }
+
+          /* curriculum section styles are here */
+
     .class-title {
         font-size: 1rem;
         line-height: 1.3rem;
@@ -70,6 +83,9 @@
     .curriculum-title {
         font-size: 1.625rem;
     }
+
+           /* story section is here */
+
     .main-story {
         display: none;
     }
@@ -91,6 +107,9 @@
     .story-description {
         line-height: normal;
     }
+
+          /* footer section styles are here */
+          
     .footer-section {
         height: 768px;
         align-items: start;
