@@ -42,9 +42,7 @@
 }
 
 /* navbar styele are here */
-.fa-solid {
-     display: none;
-}
+
 .navbar {
     max-width: 1160px;
     margin: 20px auto;
@@ -131,7 +129,7 @@
     max-width: 197px;
     padding: 10px;
     background-color: #111111;
-    color: #FFFFFF;
+    color: rgb(255, 255, 255);
     border-radius: 12px;
 }
 
@@ -164,6 +162,9 @@
     font-weight: 500;
     line-height: 1.76875rem;
     color: #808080;
+}
+.read-link {
+    text-decoration: none;
 }
 .read-1 {
     font-size: 0.943125rem;
@@ -355,12 +356,15 @@ footer {
     font-weight: 700;
     color: #FFFFFF;
 }
-.footer-clicks {
+.footer-click {
+    text-decoration: none;
     font-size: 1.25rem;
     font-weight: 500;
-    list-style: none;
     margin-bottom: 10px;
     color: #FFFFFF;
+}
+.no-list {
+    list-style: none;
 }
 .footer-social-title {
     font-size: 1.625rem;

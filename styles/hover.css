@@ -1,0 +1,27 @@
+@media screen and (min-width: 577px) {
+    .fa-solid {
+        display: none;
+    }
+    .nav-title, .logo:hover {
+        cursor: pointer;
+    }
+    .nav-btn:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    .banner-btn:hover {
+        cursor: pointer;
+    }
+    .icon-ultra:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    .banner-btn:hover {
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.7);
+    }
+    .footer-logos>img:hover {
+        cursor: pointer;
+    }
+    
+}
