@@ -84,6 +84,9 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    .story-description {
+        line-height: normal;
+    }
     .footer-section {
         height: 768px;
         align-items: start;
